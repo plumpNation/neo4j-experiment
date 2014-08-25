@@ -1,0 +1,14 @@
+{
+  "name": "neo4j-experiment",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "wtfpl",
+  "dependencies": {
+    "neo4j": "^1.1.0"
+  }
+}
