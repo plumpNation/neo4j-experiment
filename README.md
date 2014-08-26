@@ -5,6 +5,10 @@ A playground to test neo4j in nodejs
 
 ## Setup
 
+### Install nodejs
+
+Latest instructions for this are [here](https://github.com/nodesource/distributions).
+
 ### Install docker
 
 There are instructions [here](http://docs.docker.com/installation/ubuntulinux/) for Ubuntu installation.
