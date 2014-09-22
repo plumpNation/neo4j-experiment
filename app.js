@@ -1,5 +1,5 @@
 var Q = require('q'),
-    neo4j = require('node-neo4j'),
+    neo4j = require('node-neo4j'), // the "normal" neo4j package didn't support labels
     program = require('commander'),
     db = new neo4j('http://192.168.33.10:7474'),
     testData = require('./data.json'),
