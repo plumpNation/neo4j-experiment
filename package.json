@@ -9,7 +9,9 @@
   "author": "",
   "license": "wtfpl",
   "dependencies": {
-    "neo4j": "^1.1.0",
-    "q": "^1.0.1"
+    "q": "^1.0.1",
+    "node-neo4j": "^2.0.0-RC6",
+    "commander": "^2.3.0",
+    "uuid": "^1.4.1"
   }
 }

@@ -1,0 +1,54 @@
+{
+    "School": [
+        {
+            "id": "516f55d1",
+            "name": "Example School"
+        }
+    ],
+    "User": [
+        {
+            "id": "516f55d0",
+            "username": "teacher1",
+            "role": "teacher",
+            "schoolId": "516f55d1"
+        },
+        {
+            "id": "516f55d2",
+            "username": "teacher2",
+            "role": "teacher",
+            "schoolId": "516f55d1"
+        },
+        {
+            "id": "516f55d3",
+            "username": "student1",
+            "role": "student",
+            "schoolId": "516f55d1"
+        },
+        {
+            "id": "516f7ce0",
+            "username": "student2",
+            "role": "student",
+            "schoolId": "516f55d1"
+        }
+    ],
+    "Group": [
+        {
+            "id": "516f7ce1",
+            "name": "Class 1",
+            "users": [
+                "516f55d0",
+                "516f55d3",
+                "516f7ce0"
+            ]
+        },
+        {
+            "id": "516f7ce2",
+            "name": "Class 2",
+            "users": [
+                "516f55d2",
+                "516f55d3",
+                "516f7ce0"
+            ]
+        }
+    ]
+}
